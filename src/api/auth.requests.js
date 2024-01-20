@@ -36,7 +36,7 @@ const userActivities = async (year, id) => {
   return LBAdminAuth.get(`/user-activity/${year}/${id}`);
 };
 
-const getReports = async (page, limit = 10) => {
+const getReports = async (page = 1, limit = 10) => {
   return await LBAdminAuth.get(`/reports?page=${page}&limit=${limit}`);
 };
 

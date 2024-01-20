@@ -15,8 +15,6 @@ const Card = styled.div`
   align-items: center;
 
   @media (max-width: 876px) {
-    /* height: 202px;
-    min-width: 180px; */
     border-radius: 11px;
     overflow: hidden;
   }
